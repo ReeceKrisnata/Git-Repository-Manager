@@ -14,7 +14,7 @@ A versatile command-line tool to streamline Git operations, including initialisi
 10. [Disclaimer](#disclaimer)
 
 ## Overview
-The git_repo_setup.bat script is a command-line utility designed to simplify common Git repository management tasks. It offers a user-friendly interface to:
+The `git_repo_setup.bat` script is a command-line utility designed to simplify common Git repository management tasks. It offers a user-friendly interface to:
 1. **Initialise a new Git repository**
 2. **Clone a Git repository**
 3. **Update an existing Git repository**
