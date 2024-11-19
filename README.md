@@ -42,7 +42,9 @@ The script offers three core functions:
 # Usage Instructions
 1. **Download the Script**: Save the file git_repo_setup.bat to a local directory.
 2. **Run the Script**: Open a command prompt or terminal and execute the script:
-- git_repo_setup.bat
+  ```bash
+  git_repo_setup.bat
+  ```
 3. **Follow Prompts**:
 - Enter the repository URL if not auto-detected.
 - Choose an action (initialise, clone, or update).
