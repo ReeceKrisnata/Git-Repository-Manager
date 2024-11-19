@@ -1,6 +1,4 @@
 # Git Repository Manager
-
-## Description
 A versatile command-line tool to streamline Git operations, including initialising new repositories, cloning existing ones, and updating local repositories. It features automatic repository URL detection, user-friendly prompts, and robust error handling for seamless Git management.
 
 ## Table of Contents
