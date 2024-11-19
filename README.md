@@ -53,7 +53,7 @@ The script offers three core functions:
 - Allows retrying operations if an error occurs.
   
 ## Usage Instructions
-1. **Download the Script**: Save the file git_repo_setup.bat to a local directory.
+1. **Download the Script**: Save the file `git_repo_setup.bat` to a local directory.
 2. **Run the Script**: Open a command prompt or terminal and execute the script:
   ```bash
   git_repo_setup.bat
@@ -65,11 +65,11 @@ The script offers three core functions:
 
 ## Script Workflow
 1. **Detect Git Repository URL**:
-    - Fetches the URL from git config --get remote.origin.url.
+    - Fetches the URL from `git config --get remote.origin.url`.
     - If not found, prompts the user to manually enter the URL.
 
 2. **Prompt for Action**:
-    - Provides three options: initialise, clone, or update.
+    - Provides three options: `initialise`, `clone`, or `update`.
 
 3. **Perform the Selected Action**:
     - **Initialise**: Sets up a new repository and links it to the remote.
