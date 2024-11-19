@@ -100,3 +100,9 @@ The script assumes the default branch is main. If your repository uses a differe
 - The script is intended for use in Windows environments.
 - It uses PowerShell commands for advanced notifications; these may not work if PowerShell is unavailable.
 - Ensure the remote repository URL is correct to avoid connection errors.
+
+# Licence
+This project is proprietary software - see the licence.txt file for details.
+
+# Disclaimer
+This tool is intended for use at your own risk. The creators/maintainers/contributors assume no responsibility for any consequences arising from its use. Users are advised to comply with the terms of service of relevant platforms and adhere to all applicable laws, regulations, and ethical guidelines. Proceed with caution and at your own discretion.
