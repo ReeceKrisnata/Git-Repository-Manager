@@ -1,5 +1,17 @@
 # Git Repository Manager
 
+## Table of Contents
+1. [Overview](#overview)  
+2. [Prerequisites](#prerequisites)    
+3. [Features](#features)  
+4. [Usage Instructions](#usage-instructions)  
+5. [Script Workflow](#script-workflow)  
+6. [Example Scenarios](#example-scenarios)   
+7. [Troubleshooting](#troubleshooting)   
+8. [Notes](#notes)  
+9. [Licence](#licence)  
+10. [Disclaimer](#disclaimer)
+
 ## Overview
 The git_repo_setup.bat script is a command-line utility designed to simplify common Git repository management tasks. It offers a user-friendly interface to:
 1. **Initialise a new Git repository**
@@ -103,8 +115,8 @@ The script assumes the default branch is main. If your repository uses a differe
 - It uses PowerShell commands for advanced notifications; these may not work if PowerShell is unavailable.
 - Ensure the remote repository URL is correct to avoid connection errors.
 
-# Licence
+## Licence
 This project is proprietary software - see the [Licence](https://github.com/ReeceKrisnata/Git-Repository-Manager/tree/main?tab=License-1-ov-file) file for details.
 
-# Disclaimer
+## Disclaimer
 This tool is intended for use at your own risk. The creators/maintainers/contributors assume no responsibility for any consequences arising from its use. Users are advised to comply with the terms of service of relevant platforms and adhere to all applicable laws, regulations, and ethical guidelines. Proceed with caution and at your own discretion.
