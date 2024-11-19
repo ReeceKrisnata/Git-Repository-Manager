@@ -1,6 +1,6 @@
 # Git Repository Manager
 
-# Overview
+## Overview
 The git_repo_setup.bat script is a command-line utility designed to simplify common Git repository management tasks. It offers a user-friendly interface to:
 1. **Initialise a new Git repository**
 2. **Clone a Git repository**
@@ -8,7 +8,7 @@ The git_repo_setup.bat script is a command-line utility designed to simplify com
 
 The script includes error handling, user prompts, and PowerShell-based alerts for clear and effective interaction.
 
-# Prerequisites
+## Prerequisites
 **Required Tools**
 - **Git**: Ensure Git is installed and added to the system's PATH.
 - **PowerShell**: Required for pop-up alerts and enhanced feedback.
@@ -18,7 +18,7 @@ The script includes error handling, user prompts, and PowerShell-based alerts fo
 - Run the script from a terminal with appropriate permissions.
 - Place the script in a directory where you have access to Git repositories.
 
-# Features
+## Features
 **Automatic Repository Detection**
 - Attempts to detect the Git repository URL from the local configuration.
 - Prompts for manual input if the URL is not found.
@@ -39,39 +39,39 @@ The script offers three core functions:
 - Guides users through each step with clear instructions.
 - Allows retrying operations if an error occurs.
   
-# Usage Instructions
+## Usage Instructions
 1. **Download the Script**: Save the file git_repo_setup.bat to a local directory.
 2. **Run the Script**: Open a command prompt or terminal and execute the script:
   ```bash
   git_repo_setup.bat
   ```
 3. **Follow Prompts**:
-- Enter the repository URL if not auto-detected.
-- Choose an action (initialise, clone, or update).
+    - Enter the repository URL if not auto-detected.
+    - Choose an action (initialise, clone, or update).
 4. **Completion**: Check for PowerShell pop-ups indicating success or failure.
 
-# Script Workflow
+## Script Workflow
 1. **Detect Git Repository URL**:
-  - Fetches the URL from git config --get remote.origin.url.
-  - If not found, prompts the user to manually enter the URL.
+    - Fetches the URL from git config --get remote.origin.url.
+    - If not found, prompts the user to manually enter the URL.
 
 2. **Prompt for Action**:
-  - Provides three options: initialise, clone, or update.
+    - Provides three options: initialise, clone, or update.
 
 3. **Perform the Selected Action**:
-  - **Initialise**: Sets up a new repository and links it to the remote.
-  - **Clone**: Clones the repository to the current directory.
-  - **Update**: Pulls the latest changes from the remote.
+    - **Initialise**: Sets up a new repository and links it to the remote.
+    - **Clone**: Clones the repository to the current directory.
+    - **Update**: Pulls the latest changes from the remote.
 
 4. **Error Handling**:
-  - Ensures valid input for user prompts.
-  - Displays PowerShell-based error or success messages.
-  - Offers retry options for failures.
+    - Ensures valid input for user prompts.
+    - Displays PowerShell-based error or success messages.
+    - Offers retry options for failures.
 
 5. **Completion**:
-  - Provides clear feedback on the success or failure of the operation.
+    - Provides clear feedback on the success or failure of the operation.
 
-# Example Scenarios
+## Example Scenarios
 **Initialise a Repository**:
 1. Run the script.
 2. Enter the repository URL when prompted.
@@ -88,7 +88,7 @@ The script offers three core functions:
 2. Choose **Option 3** to pull the latest changes.
 3. Check for updates in the repository.
 
-# Troubleshooting
+## Troubleshooting
 **Common Issues**
 - **Git Not Installed**: Ensure Git is installed and available in your system's PATH.
 - **PowerShell Issues**: Check if PowerShell is properly installed.
@@ -98,7 +98,7 @@ The script offers three core functions:
 
 The script assumes the default branch is main. If your repository uses a different branch (e.g., master), modify the relevant branch references in the script.
 
-# Notes
+## Notes
 - The script is intended for use in Windows environments.
 - It uses PowerShell commands for advanced notifications; these may not work if PowerShell is unavailable.
 - Ensure the remote repository URL is correct to avoid connection errors.
