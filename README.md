@@ -9,7 +9,7 @@ A versatile command-line tool to streamline Git operations, including initialisi
 5. [Usage](#usage)  
 6. [Contributing](#contributing)  
 7. [Troubleshooting](#troubleshooting)  
-8. [Licence](#licence)  
+8. [License](#license)  
 19. [Disclaimer](#disclaimer) 
 
 ## Purpose  
@@ -65,7 +65,7 @@ This project simplifies common Git tasks for developers by offering:
 
 The script assumes the default branch is main. If your repository uses a different branch (e.g., master), modify the relevant branch references in the script.
 
-## Licence
+## License
 This project is copylefted software - see the [LICENSE](https://github.com/ReeceKrisnata/Git-Repository-Manager/tree/main?tab=GPL-3.0-1-ov-file) file for details.
 
 ## Disclaimer
