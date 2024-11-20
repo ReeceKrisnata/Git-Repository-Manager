@@ -66,7 +66,7 @@ This project simplifies common Git tasks for developers by offering:
 The script assumes the default branch is main. If your repository uses a different branch (e.g., master), modify the relevant branch references in the script.
 
 ## Licence
-This project is copylefted software - see the [Licence](https://github.com/ReeceKrisnata/Git-Repository-Manager/tree/main?tab=License-1-ov-file) file for details.
+This project is copylefted software - see the [LICENSE](https://github.com/ReeceKrisnata/Git-Repository-Manager/tree/main?tab=GPL-3.0-1-ov-file) file for details.
 
 ## Disclaimer
 This tool is intended for use at your own risk. The creators/maintainers/contributors assume no responsibility for any consequences arising from its use. Users are advised to comply with the terms of service of relevant platforms and adhere to all applicable laws, regulations, and ethical guidelines. Proceed with caution and at your own discretion.
